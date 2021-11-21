@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://dbUser:dbPass@cluster0.9nvvf.mongodb.net/yt-ratings?retryWrites=true&w=majority";
+const uri = "x";
 const client = new MongoClient(uri);
 
 client.connect();
